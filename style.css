@@ -13,11 +13,12 @@ button{
 a{
     text-decoration: none;
 }
-#half-with-left{
+#first-container-left{
      margin-top: 100px;
      margin-left: 50px;
+     font-size:;
 }
-#half-with-right{   
+#first-container-right{   
     width:40%;
     margin-left: 50px; 
 }
@@ -31,4 +32,59 @@ span{
 }
 #imag1{
     height: 550px;
+}
+#secont-container{
+    
+    background-image: url(images/7.png);
+    display: flex;
+}
+#second-section-left{
+    padding-top: 30px;
+    width:50%;
+}
+#second-section-right{
+    margin-top: 100PX;
+    width:50%;
+}
+#third-section{
+    text-align: center;
+    padding-top: 50px;
+    padding-left:300px;
+    padding-right: 300px;
+}
+#forth-section{
+    
+    display: flex;
+}
+.card{
+    width: 50%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px gainsboro;
+    border-radius: 15px; 
+    margin: 2%;
+}
+.card img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}  
+.card-title{
+    text-align: center;
+
+}
+.footer-section{
+    width: 96%;
+    display: flex;
+    box-shadow: 2px 2px 20px gainsboro;
+    border-radius: 15px; 
+    margin: 2%;
+
+}
+.footer-item{
+    text-align: center;
+    padding-left: 200px;
+}
+footer{
+    margin-top: 70px;
+    text-align: center;
 }
